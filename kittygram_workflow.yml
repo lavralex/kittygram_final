@@ -164,4 +164,4 @@ jobs:
         message: |
           Деплой успешно выполнен пользователем ${{ github.actor }}!
           Сообщение: ${{ github.event.commits[0].message }}
-          [Ссылка на коммит](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+          Ссылка на коммит: (https://github.com/${{ github.repository }}/commit/${{ github.sha }})
